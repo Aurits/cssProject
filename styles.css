@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.all{
+    height: 90vh;
+    width: 100vw;
+    padding: 30px;
+    position: relative;
+}
+.all div:hover{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+}
+.one{
+    width: 35%;
+    height: 30vh;
+    background-color: blanchedalmond;
+    text-align: center;
+    display: inline-block;
+}
+.two{
+    width: 30%;
+    height: 30vh;
+    background-color: rgb(172, 115, 31);
+    text-align: center;
+    margin-left: 35%;
+    display: inline-block;
+}
+.three{
+    width: 35%;
+    height: 30vh;
+    background-color: rgb(80, 58, 175);
+    text-align: center;
+    display: inline-block;
+}
+.four{
+    width: 35%;
+    height: 30vh;
+    background-color: rgb(103, 26, 247);
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    right: 10px;
+}
+.five{
+    width: 35%;
+    height: 30vh;
+    background-color: rgb(212, 32, 71);
+    text-align: center;
+    display: inline-block;   
+    position: absolute;
+    right: 10px;
+}
+h2{
+    padding: 15vh 0;
+    color: black;
+}
+
+/* navbar */
+.navbar{ 
+    width: 100w;
+    margin: auto;
+    background-color: blueviolet;
+
+}
+ul{
+    list-style: none;
+    margin: 30px;
+    width: 50vw;
+    margin: auto;
+
+}
+ul a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    font-size: 25px;
+}
+ul a:hover{
+    font-size: 30px;
+    color: greenyellow;
+}
+ul a li{
+    float: left;
+    margin: 20px;
+}
+.center{
+    width: 70%;
+    margin: auto;
+}
+.details{
+    font-size: 20px;
+}
